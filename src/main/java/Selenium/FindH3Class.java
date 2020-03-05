@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-public class HelloWebDriver {
+public class FindH3Class {
 
     public static void main(String[] args) {
 
@@ -21,28 +21,27 @@ public class HelloWebDriver {
         chromeDriver.get("https://www.google.com/");
 
         //Find an element after 5 seconds
-        WebElement searchField = waitForElementLocatedBy(chromeDriver, By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input"));
+        WebElement searchField = findElementAfterWaiting(chromeDriver, By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input"));
         //Enter a value in it
         searchField.sendKeys("api");
         //Press "Enter"
         searchField.sendKeys(Keys.ENTER);
 
-        //Find all h3 elements after 5 seconds and put them in a list
-        /*List<WebElement> h3 =  new WebDriverWait(chromeDriver,5)
-                .until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.className("h3")));*/
 
-        new WebDriverWait(chromeDriver, 5)
-                .until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.tagName("h3")));
-
-        List<WebElement> h3 = chromeDriver.findElements(By.tagName("h3"));
+        List<WebElement> h3 = findListOfElementAfterWaiting(chromeDriver,By.tagName("h3"));
         System.out.println(h3.size());
 
         chromeDriver.quit();
 
     }
 
-    private static WebElement waitForElementLocatedBy(WebDriver chromeDriver, By by) {
+    private static WebElement findElementAfterWaiting(WebDriver chromeDriver, By by) {
         return new WebDriverWait(chromeDriver,5)
-                    .until(ExpectedConditions.presenceOfElementLocated(by));
+                .until(ExpectedConditions.presenceOfElementLocated(by));
+    }
+
+    private static List<WebElement> findListOfElementAfterWaiting(WebDriver chromeDriver, By by) {
+        return new WebDriverWait(chromeDriver,5)
+                .until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
     }
 }
