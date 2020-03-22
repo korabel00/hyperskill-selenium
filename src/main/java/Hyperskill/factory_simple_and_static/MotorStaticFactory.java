@@ -1,4 +1,4 @@
-package Hyperskill.factorypattern;
+package Hyperskill.factory_simple_and_static;
 
 import static java.lang.Character.toLowerCase;
 

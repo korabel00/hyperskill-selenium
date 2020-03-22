@@ -1,4 +1,4 @@
-package Hyperskill.factorypattern;
+package Hyperskill.factory_simple_and_static;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;

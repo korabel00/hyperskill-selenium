@@ -1,4 +1,4 @@
-/**
+/*
 noon() returns an instance initialized with 12 hours, 0 minutes, and 0 seconds.
 
 midnight() returns an instance initialized with 0 hours, 0 minutes, and 0 seconds.
@@ -9,7 +9,7 @@ of(int hour, int minute, int second) returns an instance initialized with passed
 ofSeconds(long seconds) returns an instance initialized with seconds passed since midnight; as an example,
  the invocation Time.ofSeconds(500000) must create an instance with 18 hours, 53 minutes and 20 seconds (days are skipped);
 */
-package Hyperskill.factorypattern;
+package Hyperskill.factory_simple_and_static;
 
 class Time {
 

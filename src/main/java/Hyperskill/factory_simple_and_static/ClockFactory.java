@@ -1,4 +1,4 @@
-package Hyperskill.factorypattern;
+package Hyperskill.factory_simple_and_static;
 
 class ClockFactory {
 
