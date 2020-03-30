@@ -5,7 +5,7 @@ c.printField();
 
 * */
 
-package Hyperskill.PatternsConstructorsOverloadMethods;
+package Hyperskill.patterns_constructors_overload_methods;
 
 class A {
 

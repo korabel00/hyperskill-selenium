@@ -18,7 +18,7 @@
         Sample Output 4:
         title="Will sell a house", daysToExpire=30*/
 
-package Hyperskill.PatternsConstructorsOverloadMethods;
+package Hyperskill.patterns_constructors_overload_methods;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;

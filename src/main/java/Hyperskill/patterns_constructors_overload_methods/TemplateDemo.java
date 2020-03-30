@@ -1,4 +1,4 @@
-package Hyperskill.PatternsConstructorsOverloadMethods;
+package Hyperskill.patterns_constructors_overload_methods;
 
 abstract class Worker {
     public void goToWork() {

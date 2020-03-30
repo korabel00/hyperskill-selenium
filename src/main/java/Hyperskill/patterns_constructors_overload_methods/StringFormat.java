@@ -1,4 +1,4 @@
-package Hyperskill.PatternsConstructorsOverloadMethods;
+package Hyperskill.patterns_constructors_overload_methods;
 
 public class StringFormat {
     public static void print(String strArg) {

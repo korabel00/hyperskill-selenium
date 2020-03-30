@@ -1,4 +1,4 @@
-package Hyperskill.PatternsConstructorsOverloadMethods;
+package Hyperskill.patterns_constructors_overload_methods;
 
 import java.util.Arrays;
 

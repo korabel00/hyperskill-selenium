@@ -1,4 +1,4 @@
-package Hyperskill.PatternsConstructorsOverloadMethods;
+package Hyperskill.patterns_constructors_overload_methods;
 
 /*1. Implement a class named PatternsConstructorsOverloadedMethods.Cat with two instance fields: string name and int age, and one static int field counter.
 The static counter field allows you to known how many cats have been already created.

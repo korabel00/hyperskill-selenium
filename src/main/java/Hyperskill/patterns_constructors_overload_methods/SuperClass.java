@@ -1,4 +1,4 @@
-package Hyperskill.PatternsConstructorsOverloadMethods;
+package Hyperskill.patterns_constructors_overload_methods;
 
 /*There are two classes: SuperClass and SubClass. Each class has a field and a method.
  */
