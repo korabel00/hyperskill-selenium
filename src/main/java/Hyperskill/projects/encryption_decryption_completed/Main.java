@@ -18,7 +18,6 @@ and from 'A' to 'Z' as the second circle i.e. after 'z' comes 'a' and after 'Z" 
 package Hyperskill.projects.encryption_decryption_completed;
 import Hyperskill.projects.encryption_decryption_completed.consoleparsing.ConsoleParsing;
 
-
 public class Main {
 
     public static void main(String[] args) {
